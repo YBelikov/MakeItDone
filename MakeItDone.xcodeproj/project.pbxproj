@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1226982E27B193DE006C3341 /* makeitdoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226982D27B193DE006C3341 /* makeitdoneApp.swift */; };
+		1226982E27B193DE006C3341 /* MakeItDoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226982D27B193DE006C3341 /* MakeItDoneApp.swift */; };
 		1226983027B193DE006C3341 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226982F27B193DE006C3341 /* ContentView.swift */; };
 		1226983227B193DF006C3341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1226983127B193DF006C3341 /* Assets.xcassets */; };
 		1226983527B193DF006C3341 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1226983427B193DF006C3341 /* Preview Assets.xcassets */; };
@@ -24,8 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1226982A27B193DD006C3341 /* makeitdone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeitdone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1226982D27B193DE006C3341 /* makeitdoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeitdoneApp.swift; sourceTree = "<group>"; };
+		1226982A27B193DD006C3341 /* MakeItDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeItDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1226982D27B193DE006C3341 /* MakeItDoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItDoneApp.swift; sourceTree = "<group>"; };
 		1226982F27B193DE006C3341 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1226983127B193DF006C3341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1226983427B193DF006C3341 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				1226983D27B194B3006C3341 /* GoogleService-Info.plist */,
-				1226982C27B193DD006C3341 /* makeitdone */,
+				1226982C27B193DD006C3341 /* MakeItDone */,
 				1226982B27B193DD006C3341 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,24 +64,24 @@
 		1226982B27B193DD006C3341 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1226982A27B193DD006C3341 /* makeitdone.app */,
+				1226982A27B193DD006C3341 /* MakeItDone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1226982C27B193DD006C3341 /* makeitdone */ = {
+		1226982C27B193DD006C3341 /* MakeItDone */ = {
 			isa = PBXGroup;
 			children = (
 				124A35FE27B1AF240091CDCE /* Model */,
 				1274F19D27B1D2DB002E3219 /* ViewModel */,
 				1274F1A027B1D38C002E3219 /* View */,
-				1226982D27B193DE006C3341 /* makeitdoneApp.swift */,
+				1226982D27B193DE006C3341 /* MakeItDoneApp.swift */,
 				1226982F27B193DE006C3341 /* ContentView.swift */,
 				1226983127B193DF006C3341 /* Assets.xcassets */,
 				1226983327B193DF006C3341 /* Preview Content */,
 				1274F1A527B27408002E3219 /* DateExtension.swift */,
 			);
-			path = makeitdone;
+			path = MakeItDone;
 			sourceTree = "<group>";
 		};
 		1226983327B193DF006C3341 /* Preview Content */ = {
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1226982927B193DD006C3341 /* makeitdone */ = {
+		1226982927B193DD006C3341 /* MakeItDone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1226983827B193DF006C3341 /* Build configuration list for PBXNativeTarget "makeitdone" */;
+			buildConfigurationList = 1226983827B193DF006C3341 /* Build configuration list for PBXNativeTarget "MakeItDone" */;
 			buildPhases = (
 				1226982627B193DD006C3341 /* Sources */,
 				1226982727B193DD006C3341 /* Frameworks */,
@@ -132,7 +132,7 @@
 			);
 			dependencies = (
 			);
-			name = makeitdone;
+			name = MakeItDone;
 			packageProductDependencies = (
 				1226984027B196B2006C3341 /* FirebaseDatabase */,
 				1226984227B196B2006C3341 /* FirebaseFirestore */,
@@ -140,7 +140,7 @@
 				1226984627B196B2006C3341 /* FirebaseStorageSwift-Beta */,
 			);
 			productName = makeitdone;
-			productReference = 1226982A27B193DD006C3341 /* makeitdone.app */;
+			productReference = 1226982A27B193DD006C3341 /* MakeItDone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1226982527B193DD006C3341 /* Build configuration list for PBXProject "makeitdone" */;
+			buildConfigurationList = 1226982527B193DD006C3341 /* Build configuration list for PBXProject "MakeItDone" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -174,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1226982927B193DD006C3341 /* makeitdone */,
+				1226982927B193DD006C3341 /* MakeItDone */,
 			);
 		};
 /* End PBXProject section */
@@ -202,7 +202,7 @@
 				1274F1A227B1D3C8002E3219 /* ToDoItemsList.swift in Sources */,
 				1274F19F27B1D2EB002E3219 /* ToDoItemsStore.swift in Sources */,
 				1226983027B193DE006C3341 /* ContentView.swift in Sources */,
-				1226982E27B193DE006C3341 /* makeitdoneApp.swift in Sources */,
+				1226982E27B193DE006C3341 /* MakeItDoneApp.swift in Sources */,
 				1274F19C27B1CDA4002E3219 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1226982527B193DD006C3341 /* Build configuration list for PBXProject "makeitdone" */ = {
+		1226982527B193DD006C3341 /* Build configuration list for PBXProject "MakeItDone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1226983627B193DF006C3341 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1226983827B193DF006C3341 /* Build configuration list for PBXNativeTarget "makeitdone" */ = {
+		1226983827B193DF006C3341 /* Build configuration list for PBXNativeTarget "MakeItDone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1226983927B193DF006C3341 /* Debug */,
