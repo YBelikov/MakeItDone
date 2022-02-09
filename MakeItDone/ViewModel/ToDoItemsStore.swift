@@ -1,12 +1,10 @@
 import Foundation
 
-struct ToDoItemsStore {
+class ToDoItemsStore: ObservableObject {
     init() {
 #if DEBUG
     createDevData()
 #endif
     }
-    var todoItems: [ToDoItem] = [ToDoItem]()
+    @Published var todoItems: [ToDoItem] = [ToDoItem]()
 }
-
-
